@@ -38,7 +38,7 @@ and click on `Fork` in the upper right corner. This will create a fork in your G
 repository that is under your control. Now clone the repository locally so you can start working on it:
 
 ```
-git clone https://github.com/[your github username]/Project-Build-an-ML-Pipeline-Starter.git
+git clone https://github.com/WickedSmartLabs/Project-Build-an-ML-Pipeline-Starter
 ```
 
 and go into the repository:
@@ -61,7 +61,7 @@ file provided in the root of the repository and activate it:
 ### Get API key for Weights and Biases
 Let's make sure we are logged in to Weights & Biases. Get your API key from W&B by going to 
 [https://wandb.ai/authorize](https://wandb.ai/authorize) and click on the + icon (copy to clipboard), 
-then paste your key into this command:
+then paste your key into this command: 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
 
 ```bash
 > wandb login [your API key]
@@ -179,3 +179,32 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+---
+
+## Final Project Links
+
+### GitHub Repository
+https://github.com/WickedSmartLabs/Project-Build-an-ML-Pipeline-Starter
+
+### Weights & Biases Project
+https://wandb.ai/wickedsmartlabs-western/nyc_airbnb
+
+---
+
+## Final Release
+
+The final stable release of the pipeline is:
+
+**v1.0.6**
+
+This release includes:
+- Data cleaning with price filtering
+- NYC longitude/latitude boundary filtering
+- Data validation tests
+- Train/validation/test split
+- Random Forest training
+- Hyperparameter optimization
+- Model export with MLflow
+- Production model tagged as `prod`
+- Successful retraining on `sample2.csv`
